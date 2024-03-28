@@ -4,9 +4,9 @@ import Nav from "./components/Nav";
 export default function Home() {
   return (
     
-    <main >
+    <main className="">
      <Nav/>
-     <div className="">
+     <div className="bg-gray-200 w-full h-screen">
       <h2>weather</h2>
      </div>
      
